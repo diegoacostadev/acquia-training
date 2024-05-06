@@ -14,6 +14,8 @@ module:
   admin_toolbar: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
+  dblog: 0
+  devel: 0
 theme: {  }
 complete_list: {  }
 partial_list:
