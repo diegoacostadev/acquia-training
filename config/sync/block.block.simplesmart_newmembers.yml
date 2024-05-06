@@ -1,0 +1,33 @@
+uuid: 63d793d8-8565-46f3-a90a-90f4f0af1a8f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:d998d506-cb30-47db-9af1-721df98b1907'
+  module:
+    - block_content
+    - user
+  theme:
+    - simplesmart
+id: simplesmart_newmembers
+theme: simplesmart
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:d998d506-cb30-47db-9af1-721df98b1907'
+settings:
+  id: 'block_content:d998d506-cb30-47db-9af1-721df98b1907'
+  label: 'Why join?'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

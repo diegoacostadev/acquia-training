@@ -1,0 +1,24 @@
+uuid: e603c11b-328d-4812-8118-b176f7ccac8d
+langcode: en
+status: false
+dependencies:
+  config:
+    - views.view.waterfall_listing
+  module:
+    - views
+  theme:
+    - simplesmart
+id: simplesmart_views_block__waterfall_listing_block_1
+theme: simplesmart
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:waterfall_listing-block_1'
+settings:
+  id: 'views_block:waterfall_listing-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

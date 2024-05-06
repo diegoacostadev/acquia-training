@@ -1,0 +1,19 @@
+uuid: 151a69c4-4030-4ec3-b2a7-7ea0dab5ba77
+langcode: en
+status: false
+dependencies: {  }
+id: splitdev
+label: splitdev
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: /config/dev
+module:
+  dblog: 0
+  devel: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.site
