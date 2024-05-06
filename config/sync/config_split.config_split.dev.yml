@@ -1,9 +1,9 @@
 uuid: 151a69c4-4030-4ec3-b2a7-7ea0dab5ba77
 langcode: en
-status: false
+status: true
 dependencies: {  }
-id: splitdev
-label: splitdev
+id: dev
+label: dev
 description: ''
 weight: 0
 stackable: false
@@ -15,5 +15,4 @@ module:
   devel: 0
 theme: {  }
 complete_list: {  }
-partial_list:
-  - system.site
+partial_list: {  }
