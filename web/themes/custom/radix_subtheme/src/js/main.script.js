@@ -1,0 +1,6 @@
+// * Bootstrap libraries
+import "./_bootstrap";
+
+// * Any other global site-wide JavaScript should be placed here.
+
+console.log('Hello, world!');

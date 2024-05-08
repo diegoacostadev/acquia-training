@@ -1,0 +1,96 @@
+// Variables
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and
+// $modal-content-box-shadow-xs.
+
+// To customize
+// - Copy paste the variable from node_modules/bootstrap/scss/_variables.scss
+// @see: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss
+// - Change the value and remove the !default flag.
+// e.g.
+// $body-bg: #000;
+// $body-color: $gray-100;
+
+// Color system
+
+// scss-docs-start gray-color-variables
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+// scss-docs-end gray-color-variables
+
+// fusv-disable
+// scss-docs-start gray-colors-map
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+) !default;
+// scss-docs-end gray-colors-map
+// fusv-enable
+
+// scss-docs-start color-variables
+$blue: #0d6efd;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #d63384;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #198754;
+$teal: #20c997;
+$cyan: #0dcaf0;
+// scss-docs-end color-variables
+
+$primary: $pink;
+
+// Accordion
+
+// scss-docs-start accordion-variables
+$accordion-padding-y: 1.5rem;
+$accordion-padding-x: 1.875rem;
+$accordion-color: $primary;
+$accordion-bg: $gray-200;
+$accordion-border-width: 1px;
+$accordion-border-color: 1px;
+$accordion-border-radius: 3px;
+
+// $accordion-body-padding-y: $accordion-padding-y !default;
+// $accordion-body-padding-x: $accordion-padding-x !default;
+
+// $accordion-button-padding-y: $accordion-padding-y !default;
+// $accordion-button-padding-x: $accordion-padding-x !default;
+// $accordion-button-color: var(--#{$prefix}body-color) !default;
+// $accordion-button-bg: var(--#{$prefix}accordion-bg) !default;
+// $accordion-transition: $btn-transition, border-radius 0.15s ease !default;
+// $accordion-button-active-bg: var(--#{$prefix}primary-bg-subtle) !default;
+// $accordion-button-active-color: var(--#{$prefix}primary-text-emphasis) !default;
+
+// // fusv-disable
+// $accordion-button-focus-border-color: $input-focus-border-color !default; // Deprecated in v5.3.3
+// // fusv-enable
+// $accordion-button-focus-box-shadow: $btn-focus-box-shadow !default;
+
+// $accordion-icon-width: 1.25rem !default;
+// $accordion-icon-color: $body-color !default;
+// $accordion-icon-active-color: $primary-text-emphasis !default;
+// $accordion-icon-transition: transform 0.2s ease-in-out !default;
+// $accordion-icon-transform: rotate(-180deg) !default;
+
+// $accordion-button-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>") !default;
+// $accordion-button-active-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$accordion-icon-active-color}' stroke-linecap='round' stroke-linejoin='round'><path d='M2 5L8 11L14 5'/></svg>") !default;
+// // scss-docs-end accordion-variables

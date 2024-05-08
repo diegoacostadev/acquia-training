@@ -1,0 +1,12 @@
+.accordion {
+  background-color: red;
+  opacity: 0.5;
+}
+@media (min-width: 576px) {
+  .accordion {
+    background-color: blue;
+    opacity: 0.5;
+  }
+}
+
+/*# sourceMappingURL=accordion.css.map*/

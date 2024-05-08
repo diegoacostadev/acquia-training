@@ -1,0 +1,11 @@
+@import "../../src/scss/init";
+
+.accordion {
+  background-color: red;
+  opacity: 0.5;
+
+  @include media-breakpoint-up(sm) {
+    background-color: blue;
+    opacity: 0.5;
+  }
+}
